@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: brown;
+}
+body {
+    background-image: url(./imagen/imagenfondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    .navegador{
+        padding: 0%;
+        margin: 0%;
+    }
+    .container-fluid{
+        background-color: rgb(191 184 184 / 60%) ;
+    }
+.logo {
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+    margin-top: 0.5px;
+}
+.hys {
+    justify-content: center;
+    margin: 250px;
+    background-color: rgb(191 184 184 / 60%);
+    padding: 10px 5px;
+    border-radius: 30px;
+    font-display: block;
+}
+.tituyo-hys{
+    color: rgb(1, 12, 12);
+    font-style: oblique;
+    font-size: larger;
+
+}
+.texto-hys{
+    font-style: oblique;
+    font-size: medium;
+}
+.navegador{ 
+    display:flex;
+    justify-content: right;
+    flex-flow: nowrap;
+    align-content: flex-end;
+    flex-direction: row ;  
+}
+.formulario{
+    background-color:rgb(191 184 184 / 60%);  
+}
+.footer{
+    display: flex;
+    justify-content: right;
+    padding: 0%;
+    font-size: medium;
+    font-style: oblique;
+}
+.img-card{
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+    max-height: 200px;
+}
+.card-hys2{
+    max-width: 150px;
+    background-color:rgb(191 184 184 / 60%) ;
+    margin: 1rem;
+    box-shadow: 0 0 12px #d7d7d7;
+}
+.header-card{
+    border-radius: 8px 8px 0 0;
+
+
+}
+
+    
